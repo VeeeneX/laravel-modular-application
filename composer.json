@@ -20,13 +20,9 @@
             "resources/database"
         ],
         "psr-4": {
-            "App\\": "App/"
+            "App\\": "App/",
+            "Common\\": "App/Module/Common/src/Common/"
         }
-    },
-    "autoload-dev": {
-        "classmap": [
-            "App/Tests/TestCase.php"
-        ]
     },
     "scripts": {
         "post-root-package-install": [

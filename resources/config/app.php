@@ -167,16 +167,15 @@ return [
          * Package Service Providers...
          */
 
-        //
-
         /*
          * Application Service Providers...
          */
         App\Provider\AppServiceProvider::class,
-        App\Provider\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Provider\EventServiceProvider::class,
-        App\Provider\RouteServiceProvider::class,
+
+        /*
+         * Module Service Providers...
+         */
+        Common\Provider\CommonServiceProvider::class,
 
     ],
 
